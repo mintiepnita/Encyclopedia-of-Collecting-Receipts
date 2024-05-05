@@ -16,7 +16,7 @@ html {
 
   /************ Fonts ************/
 @font-face {
-    font-family: Hypermarket;
+    font-family: Hypermarket, Arial, sans-serif;
     src: url(files/fonts/Hypermarket-Regular.ttf) format("truetype"),
         url(files/fonts/Hypermarket-Regular.woff) format("woff"),
         url(files/fonts/Hypermarket-Regular.eot) format("embedded-opentype"),
