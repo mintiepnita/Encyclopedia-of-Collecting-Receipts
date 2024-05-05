@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="overview.css" />
+    <title>Overview</title>
+  </head>
+  <body>
+    <!-----------------------Navigation Side Bar-------------------->
+    <ul>
+      <li><img src="Logo.png" id="logo" /></li>
+      <li>
+        <p class="nav-description">
+          In modern retail environments, the process of printing a receipt
+          involves several key components seamlessly working together to provide
+          customers with an accurate record of their transaction. Here&#39;s how
+          the receipt is printed nowadays.
+        </p>
+      </li>
+      <li>
+        <p class="linepattern">- - - - - - - - - - - - - - - - - - - -</p>
+      </li>
+      <li><a href="home.html">HOME</a></li>
+      <li><a href="about.html">ABOUT</a></li>
+      <li><a class="active" href="overview.html">OVERVIEW</a></li>
+      <li><a href="collection.html">COLLECTION</a></li>
+      <li>
+        <p class="linepattern">- - - - - - - - - - - - - - - - - - - -</p>
+      </li>
+    </ul>
+    <!-----------------------Overview Section-------------------->
+    <div class="overview-container">
+      <!-----------------------Overview Paragraphs-------------------->
+      <div class="overviewtext">
+        <h2>From Barcode to Thermal Print</h2>
+        <p class="linepattern">
+          - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+          - - - - - - - - - - - - - - - - -
+        </p>
+        <p>&#8226; Scanning the Barcode:</p>
+        <p>
+          Items are scanned at the checkout counter using a barcode scanner,
+          quickly transmitting data to the point-of-sale (POS) system.
+        </p>
+        <p class="linepattern">
+          - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+          - - - - - - - - - - - - - - - - -
+        </p>
+        <p>&#8226; Cashier Machine Processing :</p>
+        <p>
+          The POS system on the cashier machine processes scanned data,
+          retrieving item details, prices, and discounts.
+        </p>
+        <p class="linepattern">
+          - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+          - - - - - - - - - - - - - - - - -
+        </p>
+        <p>&#8226; Generating the Receipt Data :</p>
+        <p>
+          The POS system generates receipt content, including purchased items,
+          prices, taxes, and the total amount due.
+        </p>
+        <p class="linepattern">
+          - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+          - - - - - - - - - - - - - - - - -
+        </p>
+        <p>&#8226; Data Sent to Printer :</p>
+        <p>
+          Receipt data is sent to the thermal receipt printer for printing,
+          utilizing efficient thermal printing technology.
+        </p>
+        <p class="linepattern">
+          - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+          - - - - - - - - - - - - - - - - -
+        </p>
+        <p>&#8226; Thermal Printing :</p>
+        <p>
+          The printer transfers ink onto heat-sensitive paper, producing clear
+          prints of text, graphics, and barcodes without ink cartridges.
+        </p>
+        <p class="linepattern">
+          - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+          - - - - - - - - - - - - - - - - -
+        </p>
+        <p>&#8226; Cutting & Presenting the Receipt :</p>
+        <p>
+          After the receipt is printed, the printer&#39;s cutter mechanism
+          automatically cuts the paper to the appropriate length. The cashier
+          then presents the printed receipt to the customer along with their
+          purchased items, providing a complete record of the transaction.
+        </p>
+        <p class="linepattern">
+          - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+          - - - - - - - - - - - - - - - - -
+        </p>
+        <p>This process ensures customers get accurate receipts promptly.</p>
+        <p class="linepattern">
+          - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+          - - - - - - - - - - - - - - - - -
+        </p>
+      </div>
+      <!-----------------------Overview Images-------------------->
+      <div class="overviewimages">
+        <img
+          src="overviewphoto/cashiershadow.png"
+          onmouseover="this.src='overviewphoto/cashier.png'"
+          onmouseout="this.src='overviewphoto/cashiershadow.png'"
+        />
+
+        <img
+          src="overviewphoto/machineshadow.png"
+          onmouseover="this.src='overviewphoto/machine.png'"
+          onmouseout="this.src='overviewphoto/machineshadow.png'"
+        />
+        <img
+          id="scanner"
+          src="overviewphoto/scannershadow.png"
+          onmouseover="this.src='overviewphoto/scanner.png'"
+          onmouseout="this.src='overviewphoto/scannershadow.png'"
+        />
+        <img
+          src="overviewphoto/receiptpapershadow.png"
+          onmouseover="this.src='overviewphoto/receiptpaper.png'"
+          onmouseout="this.src='overviewphoto/receiptpapershadow.png'"
+        />
+      </div>
+    </div>
+  </body>
+</html>
