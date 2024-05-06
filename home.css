@@ -17,17 +17,17 @@ html {
   /************ Fonts ************/
   @font-face {
     font-family: "Hypermarket-Regular";
-    src: url(/fonts/Hypermarket-Regular.ttf) format("truetype");
+    src: url(fonts/Hypermarket-Regular.ttf) format("truetype");
     }
     
 @font-face {
     font-family: "Hypermarket-Light";
-    src: url(/fonts/Hypermarket-Light.ttf) format("truetype");
+    src: url(fonts/Hypermarket-Light.ttf) format("truetype");
       }
 
   @font-face {
       font-family: "Hypermarket-Exp";
-        src: url(/fonts/Hypermarket-Exp.ttf) format("truetype");
+        src: url(fonts/Hypermarket-Exp.ttf) format("truetype");
           }
 
   body {
