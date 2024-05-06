@@ -15,46 +15,40 @@ html {
   /************** End CSS Reset **************/
 
   /************ Fonts ************/
+  @font-face {
+    font-family: "Hypermarket";
+    src: url(/fonts/Hypermarket-Regular.ttf) format("truetype");
+      font-weight: bold;
+      font-style: normal;
+    }
+    
 @font-face {
-    font-family: Hypermarket, Arial, sans-serif;
-    src: url(files/fonts/Hypermarket-Regular.ttf) format("truetype"),
-        url(files/fonts/Hypermarket-Regular.woff) format("woff"),
-        url(files/fonts/Hypermarket-Regular.eot) format("embedded-opentype"),
-        url(files/fonts/Hypermarket-Light.ttf) format("truetype"),
-        url(files/fonts/Hypermarket-Light.woff) format("woff"),
-        url(files/fonts/Hypermarket-Light.eot) format("embedded-opentype"),
-        url(files/fonts/Hypermarket-ExpLight.ttf) format("truetype"),
-        url(files/fonts/Hypermarket-ExpLight.woff) format("woff"),
-        url(files/fonts/Hypermarket-ExpLight.eot) format("embedded-opentype"),
-        url(files/fonts/Hypermarket-ExpBold.ttf) format("truetype"),
-        url(files/fonts/Hypermarket-ExpBold.woff) format("woff"),
-        url(files/fonts/Hypermarket-ExpBold.eot) format("embedded-opentype")
-        url(files/fonts/Hypermarket-Exp.ttf) format("truetype"),
-        url(files/fonts/Hypermarket-Exp.woff) format("woff"),
-        url(files/fonts/Hypermarket-Exp.eot) format("embedded-opentype")
-        url(files/fonts/Hypermarket-CondLight.ttf) format("truetype"),
-        url(files/fonts/Hypermarket-CondLight.woff) format("woff"),
-        url(files/fonts/Hypermarket-CondLight.eot) format("embedded-opentype")
-        url(files/fonts/Hypermarket-CondBold.ttf) format("truetype"),
-        url(files/fonts/Hypermarket-CondBold.woff) format("woff"),
-        url(files/fonts/Hypermarket-CondBold.eot) format("embedded-opentype")
-        url(files/fonts/Hypermarket-Cond.ttf) format("truetype"),
-        url(files/fonts/Hypermarket-Cond.woff) format("woff"),
-        url(files/fonts/Hypermarket-Cond.eot) format("embedded-opentype")
-        url(files/fonts/Hypermarket-Bold.ttf) format("truetype")
-        url(files/fonts/Hypermarket-Bold.woff) format("woff"),
-        url(files/fonts/Hypermarket-Bold.eot) format("embedded-opentype");
-  } 
+    font-family: "Hypermarket";
+    src: url(/fonts/Hypermarket-Light.ttf) format("truetype");
+        font-weight: light;
+        font-style: normal;
+      }
+
+  @font-face {
+      font-family: "Hypermarket";
+        src: url(/fonts/Hypermarket-Exp.ttf) format("truetype");
+            font-weight: normal;
+            font-style: oblique;
+          }
 
 body {
-  font-family: Hypermarket-Regular, Arial, sans-serif;
+  font-family: Hypermarket;
+  font-weight: normal;
+  font-style: normal;
 }
 
 /********************************************* Navigation Bar ********************************************************/
 
   ul {
     background-color: white;
-    font-family: Hypermarket-Exp, Arial, sans-serif;
+    font-family: Hypermarket;
+    font-weight: normal;
+    font-style: oblique;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -74,7 +68,9 @@ body {
   }
   
   .nav-description {
-    font-family: Hypermarket-Regular, Arial, sans-serif;;
+    font-family: Hypermarket;
+  font-weight: bold;
+  font-style: normal;
     margin-top: 15%;
     margin-bottom: 15%;
     margin-left: 3%;
@@ -173,7 +169,9 @@ body {
 /********************************************* Button *********************************************/
 
 .spread-out-button {
-  font-family: Hypermarket-Exp, Arial, sans-serif;
+  font-family: Hypermarket;
+    font-weight: normal;
+    font-style: oblique;
   font-size: calc(0.6vw + 0.6vh);
   text-align: center;
   color:black;
@@ -193,7 +191,9 @@ body {
 }
 
 .spread-out-button:hover{
-  font-family: Hypermarket-Exp,  Arial, sans-serif;
+  font-family: Hypermarket;
+    font-weight: normal;
+    font-style: oblique;
   font-size: calc(0.6vw + 0.6vh);
   text-align: center;
   color:white;
@@ -204,7 +204,9 @@ body {
 }
 
 .stack-together-button {
-  font-family: Hypermarket-Exp, Arial, sans-serif;
+  font-family: Hypermarket;
+    font-weight: normal;
+    font-style: oblique;
   font-size: calc(0.6vw + 0.6vh);
   text-align: center;
   color:black;
@@ -224,7 +226,9 @@ body {
 }
 
 .stack-together-button:hover{
-  font-family: Hypermarket-Exp, Arial, sans-serif;
+  font-family: Hypermarket;
+    font-weight: normal;
+    font-style: oblique;
   font-size: calc(0.6vw + 0.6vh);
   text-align: center;
   color:white;
@@ -235,7 +239,9 @@ body {
 }
 
 .add-image-button {
-  font-family: Hypermarket-Exp, Arial, sans-serif;
+  font-family: Hypermarket;
+    font-weight: normal;
+    font-style: oblique;
   font-size: calc(0.6vw + 0.6vh);
   text-align: center;
   color:black;
@@ -255,7 +261,9 @@ body {
 }
 
 .add-image-button:hover{
-  font-family: Hypermarket-Exp, Arial, sans-serif;
+  font-family: Hypermarket;
+  font-weight: normal;
+  font-style: oblique;
   font-size: calc(0.6vw + 0.6vh);
   text-align: center;
   color:white;

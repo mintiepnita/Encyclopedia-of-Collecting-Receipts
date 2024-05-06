@@ -16,45 +16,40 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
 
 /************ Fonts ************/
 @font-face {
-  font-family: Hypermarket;
-  src: url(files/fonts/Hypermarket-Regular.ttf) format("truetype"),
-      url(files/fonts/Hypermarket-Regular.woff) format("woff"),
-      url(files/fonts/Hypermarket-Regular.eot) format("embedded-opentype"),
-      url(files/fonts/Hypermarket-Light.ttf) format("truetype"),
-      url(files/fonts/Hypermarket-Light.woff) format("woff"),
-      url(files/fonts/Hypermarket-Light.eot) format("embedded-opentype"),
-      url(files/fonts/Hypermarket-ExpLight.ttf) format("truetype"),
-      url(files/fonts/Hypermarket-ExpLight.woff) format("woff"),
-      url(files/fonts/Hypermarket-ExpLight.eot) format("embedded-opentype"),
-      url(files/fonts/Hypermarket-ExpBold.ttf) format("truetype"),
-      url(files/fonts/Hypermarket-ExpBold.woff) format("woff"),
-      url(files/fonts/Hypermarket-ExpBold.eot) format("embedded-opentype")
-      url(files/fonts/Hypermarket-Exp.ttf) format("truetype"),
-      url(files/fonts/Hypermarket-Exp.woff) format("woff"),
-      url(files/fonts/Hypermarket-Exp.eot) format("embedded-opentype")
-      url(files/fonts/Hypermarket-CondLight.ttf) format("truetype"),
-      url(files/fonts/Hypermarket-CondLight.woff) format("woff"),
-      url(files/fonts/Hypermarket-CondLight.eot) format("embedded-opentype")
-      url(files/fonts/Hypermarket-CondBold.ttf) format("truetype"),
-      url(files/fonts/Hypermarket-CondBold.woff) format("woff"),
-      url(files/fonts/Hypermarket-CondBold.eot) format("embedded-opentype")
-      url(files/fonts/Hypermarket-Cond.ttf) format("truetype"),
-      url(files/fonts/Hypermarket-Cond.woff) format("woff"),
-      url(files/fonts/Hypermarket-Cond.eot) format("embedded-opentype")
-      url(files/fonts/Hypermarket-Bold.ttf) format("truetype")
-      url(files/fonts/Hypermarket-Bold.woff) format("woff"),
-      url(files/fonts/Hypermarket-Bold.eot) format("embedded-opentype");
-} 
+  font-family: "Hypermarket";
+  src: url(/fonts/Hypermarket-Regular.ttf) format("truetype");
+    font-weight: bold;
+    font-style: normal;
+  }
+  
+@font-face {
+  font-family: "Hypermarket";
+  src: url(/fonts/Hypermarket-Light.ttf) format("truetype");
+      font-weight: light;
+      font-style: normal;
+    }
+
+@font-face {
+    font-family: "Hypermarket";
+      src: url(/fonts/Hypermarket-Exp.ttf) format("truetype");
+          font-weight: normal;
+          font-style: oblique;
+        }
 
 body {
-font-family: Hypermarket-Regular, Arial, sans-serif;
+font-family: Hypermarket;
+font-weight: normal;
+font-style: normal;
 }
+
 
 /********************************************* Navigation Bar ********************************************************/
 
 ul {
   background-color: white;
-  font-family: Hypermarket-Exp, Arial, sans-serif;
+  font-family: Hypermarket;
+  font-weight: normal;
+  font-style: oblique;
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -74,9 +69,11 @@ overflow-y: scroll;
 }
 
 .nav-description {
-  font-family: Hypermarket-Regular, Arial, sans-serif;
-  margin-top: 20%;
-  margin-bottom: 20%;
+  font-family: Hypermarket;
+font-weight: bold;
+font-style: normal;
+  margin-top: 15%;
+  margin-bottom: 15%;
   margin-left: 3%;
   margin-right: 3%;
   font-size: calc(0.9vw + 0.9vh);
@@ -121,7 +118,9 @@ li a.active {
 
 .column {
     width: 48%; 
-    font-family: Hypermarket-Light, Arial, sans-serif;
+    font-family: Hypermarket;
+    font-weight: light;
+    font-style: normal;
     font-size: calc(0.9vw + 0.9vh);
     text-align: left;
 }
