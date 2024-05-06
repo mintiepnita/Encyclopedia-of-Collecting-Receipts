@@ -16,40 +16,29 @@ html {
 
   /************ Fonts ************/
   @font-face {
-    font-family: "Hypermarket";
+    font-family: "Hypermarket-Regular";
     src: url(/fonts/Hypermarket-Regular.ttf) format("truetype");
-      font-weight: bold;
-      font-style: normal;
     }
     
-  @font-face {
-    font-family: "Hypermarket";
+@font-face {
+    font-family: "Hypermarket-Light";
     src: url(/fonts/Hypermarket-Light.ttf) format("truetype");
-        font-weight: light;
-        font-style: normal;
       }
-  
+
   @font-face {
-      font-family: "Hypermarket";
+      font-family: "Hypermarket-Exp";
         src: url(/fonts/Hypermarket-Exp.ttf) format("truetype");
-            font-weight: normal;
-            font-style: oblique;
           }
-  
-  body {
-  font-family: Hypermarket;
-  font-weight: normal;
-  font-style: normal;
-  }
-  
-  
-  /********************************************* Navigation Bar ********************************************************/
-  
+
+body {
+  font-family: Hypermarket-Light;
+}
+
+/********************************************* Navigation Bar ********************************************************/
+
   ul {
     background-color: white;
-    font-family: Hypermarket;
-    font-weight: normal;
-    font-style: oblique;
+    font-family: Hypermarket-Exp;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -61,7 +50,7 @@ html {
   align-content: flex-start;
   overflow-y: scroll;
   }
-  
+
   #logo {
     width:100%;
     height:100%;
@@ -69,21 +58,19 @@ html {
   }
   
   .nav-description {
-    font-family: Hypermarket;
-  font-weight: bold;
-  font-style: normal;
+    font-family: Hypermarket-Regular;
     margin-top: 15%;
     margin-bottom: 15%;
     margin-left: 3%;
     margin-right: 3%;
     font-size: calc(0.9vw + 0.9vh);
   } 
-  
-  .linepattern {
+
+.linepattern {
   font-size: calc(0.6vw + 0.6vh);
   white-space: nowrap;
-  }
-  
+}
+
   li a {
     display: block;
     color: #000;
@@ -95,10 +82,16 @@ html {
     font-size: calc(1.1vw + 1.1vh);
     transition: background-color 0.3s ease-in-out;
     }
-  
+
   /* Change the active button color on view */
   li a:hover:not(.active) {
     background-color: #555;
+    color: white;
+    cursor: pointer;
+  }
+  
+  li a.active {
+    background-color: black;
     color: white;
     cursor: pointer;
   }

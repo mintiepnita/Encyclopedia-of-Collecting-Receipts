@@ -16,40 +16,29 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
 
 /************ Fonts ************/
 @font-face {
-  font-family: "Hypermarket";
+  font-family: "Hypermarket-Regular";
   src: url(/fonts/Hypermarket-Regular.ttf) format("truetype");
-    font-weight: bold;
-    font-style: normal;
   }
   
 @font-face {
-  font-family: "Hypermarket";
+  font-family: "Hypermarket-Light";
   src: url(/fonts/Hypermarket-Light.ttf) format("truetype");
-      font-weight: light;
-      font-style: normal;
     }
 
 @font-face {
-    font-family: "Hypermarket";
+    font-family: "Hypermarket-Exp";
       src: url(/fonts/Hypermarket-Exp.ttf) format("truetype");
-          font-weight: normal;
-          font-style: oblique;
         }
 
 body {
-font-family: Hypermarket;
-font-weight: light;
-font-style: normal;
+font-family: Hypermarket-Light;
 }
-
 
 /********************************************* Navigation Bar ********************************************************/
 
 ul {
   background-color: white;
-  font-family: Hypermarket;
-  font-weight: normal;
-  font-style: oblique;
+  font-family: Hypermarket-Exp;
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -69,9 +58,7 @@ overflow-y: scroll;
 }
 
 .nav-description {
-  font-family: Hypermarket;
-font-weight: bold;
-font-style: normal;
+  font-family: Hypermarket-Regular;
   margin-top: 15%;
   margin-bottom: 15%;
   margin-left: 3%;
@@ -117,9 +104,7 @@ li a.active {
   /********************************************* Overview Paragraphs ********************************************************/
 
   .overviewtext {
-    font-family: Hypermarket;
-    font-weight: light;
-    font-style: normal;
+    font-family: Hypermarket-Light;
     font-size: calc(0.9vw + 0.9vh);
     text-align: left;
     margin-left: 30%;

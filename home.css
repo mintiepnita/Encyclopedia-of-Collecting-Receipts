@@ -30,11 +30,9 @@ html {
         src: url(/fonts/Hypermarket-Exp.ttf) format("truetype");
           }
 
-body {
-  font-family: Hypermarket;
-  font-weight: normal;
-  font-style: normal;
-}
+  body {
+    font-family: Hypermarket-Light;
+  } 
 
 /********************************************* Navigation Bar ********************************************************/
 
